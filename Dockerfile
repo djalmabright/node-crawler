@@ -3,10 +3,4 @@
 #
 FROM node:6.9.1
 
-RUN apt-get update
-
-RUN apt-get install -y python python-pip
-
-RUN pip install httpbin gunicorn
-
 RUN npm install crawler -g
